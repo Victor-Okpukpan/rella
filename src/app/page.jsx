@@ -11,13 +11,8 @@ export default function Home() {
       {/* body */}
 
       <div className="flex flex-col items-center mt-24">
-        <Image
-          width="300"
-          height="100"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png"
-        />
-
-        <HomeSearch/>
+        <h1 className="font-bold text-5xl animate-pulse">WaveSearch</h1>
+        <HomeSearch />
       </div>
     </>
   );
